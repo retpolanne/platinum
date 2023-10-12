@@ -220,7 +220,7 @@ h6 {
 
 html,
 body {
-    background-image: url("../img/patterns/French%20Blue%20Dark.png");
+    background-image: url("../../images/maccat.png");
     background-repeat: repeat;
     font-family: "Charcoal", "Chicago", "Times New Roman", "Georgia", serif;
     font-size: 0.75em;
@@ -229,7 +229,7 @@ body {
 
 
 .content button {
-    background-color: #dedede;
+    background-color: #e4c2df;
     border: 1px solid #000;
     border-radius: 3px;
     box-shadow: var(--button-box-shadow);
@@ -247,7 +247,7 @@ body {
 }
 
 .content .inner {
-    background-color: #ddd;
+    background-color: #dbb9dd;
     border: 1px solid #111;
     box-shadow: -1px -1px 0 0 #999, 1px 1px 0 0 #fff, inset 1px 1px 0 0 #fff,
         inset -1px -1px 0 0 #999;
@@ -276,7 +276,7 @@ body {
         tobottomright,
         #999,
         #aaa,
-        #bbb,
+        #bbbbbb,
         #ccc,
         #ddd,
         #eee,
