@@ -19,7 +19,7 @@ body {
     user-select: none;
     height: 100%;
     margin: 0;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .center {
@@ -48,10 +48,6 @@ body {
 .content ul {
     margin: 2px 0 1.5rem;
     padding: 0 0 0 2rem;
-}
-
-.content {
-    position: absolute;
 }
 
 .control-box {
