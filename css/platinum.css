@@ -260,6 +260,71 @@ body {
     box-shadow: 1px 2px #111, inset 1px 1px 0 0 #fff, inset -1px -1px 0 0 #999;
     font-size: 1rem;
     font-weight: 400;
+    width: 50%; 
+    left: 60px; 
+    top: 120px;
+    position: absolute;
+}
+
+#about {
+    top: 400px;
+    left: 100px;
+    position: relative;
+    height: 200px;
+    width: 400px;
+}
+
+#container {
+    position: relative;
+    min-height: 110vh;
+}
+
+.content_footer {
+    background: #ccc;
+    border: 1px solid #111;
+    box-shadow: 1px 2px #111, inset 1px 1px 0 0 #fff, inset -1px -1px 0 0 #999;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    z-index: 300;
+    bottom: 0px;
+    width: 100%; 
+    text-align: center;
+}
+
+#footerIndex {
+    position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        width: 100%; 
+        left: 0px; 
+        top: 0px;
+        position: relative;
+    }
+
+    #about {
+        top: 0px;
+        left: 0px;
+        position: relative;
+        height: 200px;
+        width: 400px;
+    }
+
+    .content_footer {
+        background: #ccc;
+        border: 1px solid #111;
+        box-shadow: 1px 2px #111, inset 1px 1px 0 0 #fff, inset -1px -1px 0 0 #999;
+        font-size: 1rem;
+        font-weight: 400;
+        height: 22%;
+        position: relative;
+        z-index: 300;
+        bottom: 0px;
+        width: 100%; 
+        text-align: center;
+    }
 }
 
 .control-box {
