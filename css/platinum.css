@@ -299,6 +299,8 @@ body {
 #music {
     width: auto;
     height: auto;
+    position: absolute;
+    top: 400px;
 }
 
 #musicInner {
